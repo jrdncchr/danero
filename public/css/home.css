@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P);
+
+html, body {
+    background-color: #fff;
+    color: #2D4A4C;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+input {
+	border-radius: 0 !important;
+    background-color: #FDFDFD !important;
+}
+
+a {
+	color: #2D4A4C;
+}
+
+a:focus, button:focus, a:hover, a:active {
+    text-decoration: none !important;
+    outline: 0 !important;
+    color: #BF584E !important;
+}
+
+.content {
+    align-items: center;
+    padding-top: 75px;
+}
+
+.title {
+	font-family: 'Press Start 2P', cursive;
+    font-size: 84px;
+    text-align: center;
+}
+
+.sub-title {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.links > a {
+    color: #2D4A4C;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+
+div.form-group label {
+	color: #2D4A4C;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img.story-img-sm {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.btn-primary {
+	background: #2D4A4C;
+	color: white;
+	border-color: #2D4A4C;
+}
+
+.btn-primary:focus, .btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+	background: #2D4A33;
+	border-color: #2D4A4C;
+}
